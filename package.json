@@ -2,7 +2,7 @@
   "name": "dimayc-form",
   "version": "1.0.0",
   "description": "Web component to create a dinamyc form, based on LitElement",
-  "main": "dinamyc-form.js",
+  "main": "lit-dinamyc-form.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
