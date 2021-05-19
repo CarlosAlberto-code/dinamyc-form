@@ -8,7 +8,7 @@ Web component to create a dinamyc form, based on LitElement
 <lit-dinamyc-form></lit-dinamyc-form>
 ```
 
-### Properties
+## Properties
 
 - edit: boolean atribute that changue the text of the button to "Edit data" or "Saved data" .
 - data: retriview a json object witch will be used to create the form template
