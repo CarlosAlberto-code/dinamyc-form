@@ -1,0 +1,27 @@
+{
+  "name": "dimayc-form",
+  "version": "1.0.0",
+  "description": "Web component to create a dinamyc form, based on LitElement",
+  "main": "dinamyc-form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosAlberto-code/dinamyc-form.git"
+  },
+  "keywords": [
+    "webcomponentes",
+    "litelement",
+    "javascript"
+  ],
+  "author": "Carlos Alberto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosAlberto-code/dinamyc-form/issues"
+  },
+  "homepage": "https://github.com/CarlosAlberto-code/dinamyc-form#readme",
+  "dependencies": {
+    "lit-element": "^2.5.1"
+  }
+}
