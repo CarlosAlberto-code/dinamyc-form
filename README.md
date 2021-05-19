@@ -25,7 +25,7 @@ Custom property | Description | Default
 --values | Element values only available when the type is select | []
 
 
-### component
+### Component
 This element acts as form. So, you can listen the native `clic` event.
 ```
  const myForm = document.querySelector('lit-dinamyc-form');
