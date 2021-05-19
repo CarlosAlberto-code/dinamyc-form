@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/CarlosAlberto-code/dinamyc-form#readme",
   "dependencies": {
+    "@granite-elements/granite-lit-bootstrap": "^4.6.0-0",
     "lit-element": "^2.5.1"
   }
 }

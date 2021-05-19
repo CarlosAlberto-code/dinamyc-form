@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form dinamyc</h2>
+    <lit-dinamyc-form></lit-dinamyc-form>
+    <strong>Instructions:</strong>
+    <p>When you click on the button, disptachs and event called send-data where you can catch the information into the event object witch propertie detail.</p>
+    <p>Data retrieved from <strong>Form</strong></p>
+    <code>
+        <pre id="codePanel">
+        </pre>
+    </code>
+    
+    <script src="../src/index.js" type="module" ></script>
+    <script src="../src/formularioPersona.js"></script>
+    <script>
+        (function(){
+            const myForm = document.querySelector('lit-dinamyc-form');
+            const codePanel = document.querySelector('#codePanel');
+            myForm.data = Person;
+
+            myForm.addEventListener('send-data', (e) =>{
+                codePanel.innerHTML = `<h3><strong>e.deatail.data</strong></h3> [ ${e.detail.data} ]<h3><strong>e.deatail.dataJSON</strong></h3>${ JSON.stringify( e.detail.dataJSON ) } `;
+                console.log(e.detail.data);
+                console.log(e.detail.dataJSON);
+            })
+
+        })()
+  </script>
+</body>
+</html>
