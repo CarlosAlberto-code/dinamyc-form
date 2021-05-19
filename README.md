@@ -1,4 +1,4 @@
-# <dinamyc-form>
+# \<dinamyc-form>
 
 Web component to create a dinamyc form, based on LitElement
 
@@ -25,7 +25,7 @@ Custom property | Description | Default
 --values | Element values only available when the type is select | []
 
 
-### Component
+### Component events
 This element acts as form. So, you can listen the native `clic` event.
 ```
  const myForm = document.querySelector('lit-dinamyc-form');
@@ -37,3 +37,5 @@ This element acts as form. So, you can listen the native `clic` event.
     console.log(e.detail.dataJSON);
 })
 ```
+
+ 
