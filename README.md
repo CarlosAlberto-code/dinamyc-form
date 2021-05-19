@@ -21,7 +21,7 @@ Web component to create a dinamyc form, based on LitElement
 Custom property | Description | Default
 ----------------|-------------|---------
 --type | Element type | text
---default | Element value that will show in the tag | ''
+--default | Element value that will show in the tag | ""
 --values | Element values only available when the type is select | []
 
 
@@ -38,4 +38,5 @@ This element acts as form. So, you can listen the native `clic` event.
 })
 ```
 
+ 
  
